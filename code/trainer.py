@@ -442,6 +442,7 @@ class condGANTrainer(object):
             print('Load text encoder from:', cfg.TRAIN.NET_E)
             text_encoder = text_encoder.cuda()
             text_encoder.eval()
+            print("CHECKINGGGGGGGGGG")
 
             # the path to save generated images
             if cfg.GAN.B_DCGAN:
